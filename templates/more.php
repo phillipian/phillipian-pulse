@@ -11,8 +11,6 @@ $type = $_POST['type'];
 require_once('../includes/config.php');
 require_once ("../includes/$type.php");
 require_once('../includes/common.php');
-
-
 ?>
 
 <?php for($i = $start; $i < $start+$additional; $i++): ?>

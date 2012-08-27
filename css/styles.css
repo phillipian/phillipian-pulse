@@ -23,13 +23,16 @@
 .month-day {
 	font-size: 18px;
 }
+
 .day-date .mobile-date{
 	display: none;
 }
+
 .day-date div {
 	width: 100px;
 	text-align: right;
 }
+
 .post, #more, .no-more{
 	width: 84%;
 	float: right;
@@ -49,54 +52,55 @@
 /* ============================= */
 
 @media handheld, only screen and (max-width: 767px) {
+  #logo {
+    margin: 0 auto;
+  }
 
-#logo {margin: 0 auto;}
+  #menu {
+    display: none;
+  }
 
+  .post, #more, .no-more{
+    float:left;
+    width: 100%
+  }	
 
-#menu {
-	display: none;
-}
-.post, #more, .no-more{
-	float:left;
-	width: 100%
-}	
+  .post .content {
+    font-size: 14px;
+  }
 
-.post .content {
-	font-size: 14px;
-}
+  .day-date .day-of-week, .day-date .month-day {
+    display: none;
+  }
 
-.day-date .day-of-week, .day-date .month-day {
-	display: none;
-}
+  .day-date .mobile-date {
+    display: inline;
+    float: left;
+    width: 200px;
+    text-align: left;
+  }
 
-.day-date .mobile-date {
-	display: inline;
-	float: left;
-	width: 200px;
-	text-align: left;
-}
-.day-date {
-	height: 22px;
-	font-size: 18px;
-	line-height: 22px;
-	padding: 0 0 10px 0;
-	float: left;
-	width: 200px;
-}
+  .day-date {
+    height: 22px;
+    font-size: 18px;
+    line-height: 22px;
+    padding: 0 0 10px 0;
+    float: left;
+    width: 200px;
+  }
 
-.post-bottom .twitter-follow-button{
-	display: none;
-	
-}
+  .post-bottom .twitter-follow-button{
+    display: none;
+  }
 
-.sidebar a.rounded {
-	width: 100%;
-}
+  .sidebar a.rounded {
+    width: 100%;
+  }
 
-.footer p {
-	padding: 0 10%;
-	text-align: center;
-}
+  .footer p {
+    padding: 0 10%;
+    text-align: center;
+  }
 }
 
 /* ========================================== */

@@ -60,5 +60,7 @@ body {
 	font-weight: 600;
 	padding: 10px 0;
 }
+
 a:focus, a:hover {text-decoration:underline;}
+
 a {color:#002054;text-decoration:none;}

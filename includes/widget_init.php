@@ -47,7 +47,4 @@ function getAccount($url) {
 	$account = substr($url, 0, -12);
 	return substr($account, 7);
 }
-
-
-
 ?>
