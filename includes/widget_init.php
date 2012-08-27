@@ -29,7 +29,7 @@ if (isset ($_GET['cache']))
 $strip_htmltags = $data->strip_htmltags;
 
 // add these tags. Removed br tag for cleanness
-$data->strip_htmltags(array_merge($strip_htmltags, array('br')));
+$data->strip_htmltags(array_merge($strip_htmltags, array('br', 'div')));
 
 //sets cache location
 $data->set_cache_location('cache');
