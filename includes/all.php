@@ -10,6 +10,10 @@ foreach ($tumblr_accounts as $account) {
 	$sources[] = 'http://'.$account.'.tumblr.com/rss';
 }
 
+foreach ($twitter_hashtags as $hashtag) {
+    $sources[] = "http://search.twitter.com/search.rss?q=%23$hashtag";
+}
+
 //adds the additional sources to the $sources array
 foreach ($additional_sources as $source) {
 	$sources[] = $source;

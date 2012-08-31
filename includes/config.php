@@ -39,6 +39,10 @@ $tumblr_accounts = array(
 	//'andoveralumni',
 );
 
+$twitter_hashtags = array(
+    'phillipianpulse'
+);
+
 //feed selection configuration is in templates/feed_select.php
 
 $main_tumblr_url = 'andoverpulse.tumblr.com'; //this is the account that ppl will post to
